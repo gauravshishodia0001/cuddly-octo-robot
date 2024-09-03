@@ -1,0 +1,42 @@
+.bannerBgImage1{
+    height: 100vh;
+    background: url(\laptop4.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText1{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+     
+}
+.bannerTitle1{
+    font-size: 4rem;
+}
+.bannerImageDesc1{
+    font-size: 2rem;
+}
+
+.card{
+    cursor: pointer;
+
+}
+.card:hover{
+    background-color: palevioletred;
+    border: 3px solid yellowgreen;
+
+}
+
+.bIcon{
+    width: 100px;
+    text-align:center;
+    font-size: 40;
+}
+
+.img-fluid:hover{
+    border:2px solid yellowgreen;
+}
